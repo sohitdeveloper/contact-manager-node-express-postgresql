@@ -2,7 +2,6 @@ const Contacts = require("../models/contactModel");
 const crypto = require("crypto");
 const moment = require("moment");
 const Users = require("../models/authModel");
-const { UserContacts } = require("../models/UserContactsModel");
 
 // @desc Get All Contacts
 // @route GET /api/contacts
